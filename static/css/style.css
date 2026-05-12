@@ -1,0 +1,79 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100vh;
+}
+
+/* タイトル */
+#title {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  z-index: 1000;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background: rgba(0,0,0,0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* ログ */
+#log {
+  position: absolute;
+  right: 10px;
+  bottom: 5%;
+  width: 350px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.clickable {
+  cursor: pointer;
+  border-bottom: 2px solid ;
+  border-bottom-color: lightblue;
+  padding: 3px;
+}
+
+.clickable:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+#controls {
+    position: absolute;
+    bottom: 10px;
+    left: 15%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: flex;
+    gap: 8px;
+}
+
+#controls button {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.4);
+    padding: 6px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+#controls button:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+#controls button.active {
+    background: rgba(255,255,255,0.3);
+    border-color: white;
+}
