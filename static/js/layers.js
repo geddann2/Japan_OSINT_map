@@ -14,7 +14,7 @@ let layerVisible = { aircraft: true, earthquake: true, ship: true };
 
 function toggleLayer(type) {
     layerVisible[type] = !layerVisible[type];
-
+//飛行機情報
     if (type === "aircraft") {
         for (let icao in aircraftMarkers) {
             if (layerVisible.aircraft) {
@@ -24,7 +24,7 @@ function toggleLayer(type) {
             }
         }
     }
-
+//地震情報
     if (type === "earthquake") {
         earthquakeMarkers.forEach(m => {
             if (!m) return;
@@ -36,7 +36,7 @@ function toggleLayer(type) {
         });
     }
 
-
+//船舶情報
        if (type === "ship") {
     for (let mmsi in shipMarkers) {
         if (layerVisible.ship) {

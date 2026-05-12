@@ -6,7 +6,7 @@ from flask import jsonify
 
 AISSTREAM_KEY = os.getenv("AISSTREAM_KEY")
 
-# 船舶データのキャッシュ（mmsi -> 船舶情報）
+# 受信済み船舶データ（mmsiが船舶情報）
 _ships = {}
 _lock = threading.Lock()
 
@@ -19,11 +19,11 @@ def _on_message(ws, message):
             return
 
         meta = data.get("MetaData", {})
-        pos  = data.get("Message", {}).get("PositionReport", {})
+        pos = data.get("Message", {}).get("PositionReport", {})
 
         mmsi = str(meta.get("MMSI", ""))
-        lat  = meta.get("latitude")
-        lon  = meta.get("longitude")
+        lat = meta.get("latitude")
+        lon = meta.get("longitude")
 
         if not mmsi or lat is None or lon is None:
             return
@@ -34,7 +34,7 @@ def _on_message(ws, message):
                 "name":    meta.get("ShipName", "不明").strip(),
                 "lat":     lat,
                 "lon":     lon,
-                "speed":   pos.get("Sog"),    # 対地速度（ノット）
+                "speed":   pos.get("Sog"),    # （ノット）
                 "heading": pos.get("Cog"),    # 針路
             }
     except (KeyError, ValueError):

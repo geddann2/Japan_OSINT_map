@@ -4,7 +4,7 @@ from api.aircraft import get_aircraft
 from api.earthquake import get_earthquake
 from api.ship import get_ship, init_ship
 
-load_dotenv()  # .envを読み込む
+load_dotenv()  # .envを読み込み
 
 app = Flask(__name__)
 

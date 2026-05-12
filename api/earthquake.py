@@ -1,6 +1,7 @@
 import requests
 from flask import jsonify
 
+# 都道府県コード（気象庁参考）
 PREF_MAP = {
     "01": "北海道", "02": "青森県", "03": "岩手県", "04": "宮城県", "05": "秋田県",
     "06": "山形県", "07": "福島県", "08": "茨城県", "09": "栃木県", "10": "群馬県",
@@ -30,6 +31,7 @@ def get_earthquake():
 
     for eq in data:
         try:
+            # 重複、データの欠損がおこるため除外
             if eq["ttl"] not in ["震度速報", "震源・震度情報"]:
                 continue
 
@@ -41,6 +43,7 @@ def get_earthquake():
             lon = float(lon_depth[0])
 
             prefs = {}
+            # 震度４以上の地域のみ表記
             for area in eq["int"]:
                 for city in area["city"]:
                     city_maxi = city["maxi"]
