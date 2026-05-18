@@ -10,6 +10,14 @@ const STORAGE_KEY_AIRCRAFT = "aircraft_history";
 // --- localStorage ---
 function saveAircraftHistory() {
     try {
+        // 保存前に全エントリをprune＆空になったものは削除
+        const cutoff = Date.now() - ROUTE_TTL;
+        for (let icao in aircraftHistory) {
+            aircraftHistory[icao] = aircraftHistory[icao].filter(p => p.ts >= cutoff);
+            if (aircraftHistory[icao].length === 0) {
+                delete aircraftHistory[icao];
+            }
+        }
         localStorage.setItem(STORAGE_KEY_AIRCRAFT, JSON.stringify(aircraftHistory));
     } catch (e) {
         console.warn("Aircraft history save failed:", e);
@@ -115,11 +123,11 @@ function updateAircraft() {
             });
 
             let popup =
-                `コールサイン: ${ac.callsign}<br>` +
-                `国籍: ${ac.country}<br>` +
-                `高度: ${ac.alt ? Math.round(ac.alt) + " m" : "不明"}<br>` +
-                `速度: ${ac.speed ? Math.round(ac.speed * 1.94384) + " kt" : "不明"}<br>` +
-                `針路: ${ac.heading ? Math.round(ac.heading) + "°" : "不明"}`;
+                `<span class="popup-label">コールサイン</span><span class="popup-value-accent">${(ac.callsign || "不明")}</span><br>` +
+                `<span class="popup-label">国籍</span><span class="popup-value">${ac.country}</span><br>` +
+                `<span class="popup-label">高度</span><span class="popup-value">${ac.alt ? Math.round(ac.alt) + " m" : "—"}</span><br>` +
+                `<span class="popup-label">速度</span><span class="popup-value">${ac.speed ? Math.round(ac.speed * 1.94384) + " kt" : "—"}</span><br>` +
+                `<span class="popup-label">針路</span><span class="popup-value">${ac.heading ? Math.round(ac.heading) + "°" : "—"}</span>`;
 
             const rotation = ac.heading != null ? ac.heading - 90 : 0;
 

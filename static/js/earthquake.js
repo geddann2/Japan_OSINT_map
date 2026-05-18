@@ -115,11 +115,11 @@ function renderLog(data) {
                 .addTo(map)
                 .bindPopup(
                     `<table style="border-collapse:collapse;font-size:12px;line-height:1.8;">` +
-                    `<tr><td style="color:rgba(148,163,184,0.6);padding-right:10px;white-space:nowrap;">日時</td><td>${new Date(eq.at).toLocaleString()}</td></tr>` +
-                    `<tr><td style="color:rgba(148,163,184,0.6);padding-right:10px;white-space:nowrap;">場所</td><td>${eq.place}</td></tr>` +
-                    `<tr><td style="color:rgba(148,163,184,0.6);padding-right:10px;white-space:nowrap;">最大震度</td><td>${eq.maxi}</td></tr>` +
-                    `<tr><td style="color:rgba(148,163,184,0.6);padding-right:10px;white-space:nowrap;">規模</td><td>M${eq.mag}</td></tr>` +
-                    `<tr><td style="color:rgba(148,163,184,0.6);padding-right:10px;white-space:nowrap;vertical-align:top;">各地</td><td>${buildPrefText(eq.prefs)}</td></tr>` +
+                    `<tr><td style="color:rgba(148,163,184,0.5);font-size:10px;letter-spacing:0.06em;text-transform:uppercase;padding-right:10px;white-space:nowrap;">日時</td><td>${new Date(eq.at).toLocaleString()}</td></tr>` +
+                    `<tr><td style="color:rgba(148,163,184,0.5);font-size:10px;letter-spacing:0.06em;text-transform:uppercase;padding-right:10px;white-space:nowrap;">場所</td><td style="color:#fff;font-weight:500;">${eq.place}</td></tr>` +
+                    `<tr><td style="color:rgba(148,163,184,0.5);font-size:10px;letter-spacing:0.06em;text-transform:uppercase;padding-right:10px;white-space:nowrap;">最大震度</td><td>${eq.maxi}</td></tr>` +
+                    `<tr><td style="color:rgba(148,163,184,0.5);font-size:10px;letter-spacing:0.06em;text-transform:uppercase;padding-right:10px;white-space:nowrap;">規模</td><td>M${eq.mag}</td></tr>` +
+                    `<tr><td style="color:rgba(148,163,184,0.5);font-size:10px;letter-spacing:0.06em;text-transform:uppercase;padding-right:10px;white-space:nowrap;vertical-align:top;">各地</td><td>${buildPrefText(eq.prefs)}</td></tr>` +
                     `</table>`
                 );
             earthquakeMarkers.push(marker);

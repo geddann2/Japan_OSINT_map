@@ -10,6 +10,14 @@ const STORAGE_KEY_SHIP = "ship_history";
 // --- localStorage ---
 function saveShipHistory() {
     try {
+        // 保存前に全エントリをprune＆空になったものは削除
+        const cutoff = Date.now() - SHIP_ROUTE_TTL;
+        for (let mmsi in shipHistory) {
+            shipHistory[mmsi] = shipHistory[mmsi].filter(p => p.ts >= cutoff);
+            if (shipHistory[mmsi].length === 0) {
+                delete shipHistory[mmsi];
+            }
+        }
         localStorage.setItem(STORAGE_KEY_SHIP, JSON.stringify(shipHistory));
     } catch (e) {
         console.warn("Ship history save failed:", e);
@@ -100,10 +108,10 @@ function updateShip() {
             });
 
             let popup =
-                `船名: ${ship.name}<br>` +
-                `MMSI: ${ship.mmsi}<br>` +
-                `速度: ${ship.speed != null ? ship.speed + " kt" : "不明"}<br>` +
-                `針路: ${ship.heading != null ? Math.round(ship.heading) + "°" : "不明"}`;
+                `<span class="popup-label">船名</span><span class="popup-value-accent">${ship.name}</span><br>` +
+                `<span class="popup-label">MMSI</span><span class="popup-value">${ship.mmsi}</span><br>` +
+                `<span class="popup-label">速度</span><span class="popup-value">${ship.speed != null ? ship.speed + " kt" : "—"}</span><br>` +
+                `<span class="popup-label">針路</span><span class="popup-value">${ship.heading != null ? Math.round(ship.heading) + "°" : "—"}</span>`;
 
             const rotation = ship.heading != null ? ship.heading - 90 : 0;
 
