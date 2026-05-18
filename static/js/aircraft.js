@@ -111,7 +111,7 @@ function updateAircraft() {
                 iconUrl: '/static/images/aircraft.png',
                 iconSize: [24, 24],
                 iconAnchor: [12, 12],
-                popupAnchor: [0, -12],
+                popupAnchor: [0, -60],
             });
 
             let popup =
@@ -121,14 +121,17 @@ function updateAircraft() {
                 `速度: ${ac.speed ? Math.round(ac.speed * 1.94384) + " kt" : "不明"}<br>` +
                 `針路: ${ac.heading ? Math.round(ac.heading) + "°" : "不明"}`;
 
+            const rotation = ac.heading != null ? ac.heading - 90 : 0;
+
             if (aircraftMarkers[ac.icao]) {
                 aircraftMarkers[ac.icao].setLatLng([ac.lat, ac.lon]);
                 aircraftMarkers[ac.icao].setPopupContent(popup);
+                aircraftMarkers[ac.icao].setRotationAngle(rotation);
                 if (!layerVisible.aircraft) {
                     map.removeLayer(aircraftMarkers[ac.icao]);
                 }
             } else {
-                aircraftMarkers[ac.icao] = L.marker([ac.lat, ac.lon], { icon })
+                aircraftMarkers[ac.icao] = L.marker([ac.lat, ac.lon], { icon, rotationAngle: rotation, rotationOrigin: 'center' })
                     .bindPopup(popup)
                     .on('click', () => showAircraftRoute(ac.icao));
                 if (layerVisible.aircraft) {

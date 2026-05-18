@@ -114,11 +114,13 @@ function renderLog(data) {
             let marker = L.marker([eq.lat, eq.lon], { icon })
                 .addTo(map)
                 .bindPopup(
-                    `日時: ${new Date(eq.at).toLocaleString()}<br>` +
-                    `場所: ${eq.place}<br>` +
-                    `最大震度: ${eq.maxi}<br>` +
-                    `M: ${eq.mag}<br>` +
-                    `<b>各地の震度:</b><br>${buildPrefText(eq.prefs)}`
+                    `<table style="border-collapse:collapse;font-size:12px;line-height:1.8;">` +
+                    `<tr><td style="color:rgba(148,163,184,0.6);padding-right:10px;white-space:nowrap;">日時</td><td>${new Date(eq.at).toLocaleString()}</td></tr>` +
+                    `<tr><td style="color:rgba(148,163,184,0.6);padding-right:10px;white-space:nowrap;">場所</td><td>${eq.place}</td></tr>` +
+                    `<tr><td style="color:rgba(148,163,184,0.6);padding-right:10px;white-space:nowrap;">最大震度</td><td>${eq.maxi}</td></tr>` +
+                    `<tr><td style="color:rgba(148,163,184,0.6);padding-right:10px;white-space:nowrap;">規模</td><td>M${eq.mag}</td></tr>` +
+                    `<tr><td style="color:rgba(148,163,184,0.6);padding-right:10px;white-space:nowrap;vertical-align:top;">各地</td><td>${buildPrefText(eq.prefs)}</td></tr>` +
+                    `</table>`
                 );
             earthquakeMarkers.push(marker);
         } else {

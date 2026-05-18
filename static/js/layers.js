@@ -5,8 +5,12 @@ var map = L.map('map', {
     maxBoundsViscosity: 1.0
 }).setView([36, 138], 5);
 
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: '&copy; Esri'
+}).addTo(map);
+
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OpenStreetMap &copy; CARTO'
+    opacity: 0.65
 }).addTo(map);
 
 // レイヤー表示切替（共通）

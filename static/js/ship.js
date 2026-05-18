@@ -96,7 +96,7 @@ function updateShip() {
                 iconUrl: '/static/images/ship.png',
                 iconSize: [24, 24],
                 iconAnchor: [12, 12],
-                popupAnchor: [0, -12],
+                popupAnchor: [0, -60],
             });
 
             let popup =
@@ -105,14 +105,17 @@ function updateShip() {
                 `速度: ${ship.speed != null ? ship.speed + " kt" : "不明"}<br>` +
                 `針路: ${ship.heading != null ? Math.round(ship.heading) + "°" : "不明"}`;
 
+            const rotation = ship.heading != null ? ship.heading - 90 : 0;
+
             if (shipMarkers[ship.mmsi]) {
                 shipMarkers[ship.mmsi].setLatLng([ship.lat, ship.lon]);
                 shipMarkers[ship.mmsi].setPopupContent(popup);
+                shipMarkers[ship.mmsi].setRotationAngle(rotation);
                 if (!layerVisible.ship) {
                     map.removeLayer(shipMarkers[ship.mmsi]);
                 }
             } else {
-                shipMarkers[ship.mmsi] = L.marker([ship.lat, ship.lon], { icon })
+                shipMarkers[ship.mmsi] = L.marker([ship.lat, ship.lon], { icon, rotationAngle: rotation, rotationOrigin: 'center' })
                     .bindPopup(popup)
                     .on('click', () => showShipRoute(ship.mmsi));
                 if (layerVisible.ship) {
