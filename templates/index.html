@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>OSINT</title>
+  <title>Japan OSINT Dashboard</title>
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
   <link rel="stylesheet" href="/static/css/style.css">
@@ -11,23 +11,66 @@
 </head>
 <body>
 
+<!-- ヘッダー -->
 <div id="title">
-  <img src="/static/images/icon.jpg" style="height:24px; vertical-align:middle; margin-right:8px;">
-  Japan OSINT Dashboard
+  <div id="title-icon">
+    <img src="/static/images/icon.jpg" style="width:20px; height:20px; border-radius:3px; vertical-align:middle;">
+  </div>
+  <div id="title-text">
+    <div id="title-main">Japan OSINT</div>
+    <div id="title-sub">Real-time Monitor</div>
+  </div>
+  <div id="title-divider"></div>
+  <div id="live-dot"></div>
+  <div id="live-label">Live</div>
 </div>
-<div id="map"></div>
-<div id="aircraft-status" style="position:fixed; bottom:2.5%; right:10px; color:#4fc3f7; font-size:12px; z-index:1000;"></div>
-<div id="log"></div>
-<div id="controls">
-    <button id="btn-aircraft"   onclick="toggleLayer('aircraft')"> 航空機</button>
-<button id="btn-earthquake" onclick="toggleLayer('earthquake')"> 地震</button>
-  <button id="btn-ship" onclick="toggleLayer('ship')"> 船舶</button>
 
+<!-- ステータスチップ（右上）: 航空機・船舶のみ -->
+<div id="status-bar">
+  <div class="status-chip">
+    <span class="chip-dot chip-dot-blue"></span>
+    <span id="chip-aircraft">— 航空機</span>
+  </div>
+  <div class="status-chip">
+    <span class="chip-dot chip-dot-teal"></span>
+    <span id="chip-ship">— 船舶</span>
+  </div>
+</div>
+
+<div id="map"></div>
+
+<div id="aircraft-status"></div>
+
+<!-- 地震ログ -->
+<div id="log">
+  <div id="log-header" onclick="toggleLogCollapse()" style="cursor:pointer;">
+    <span id="log-header-title">地震ログ</span>
+    <span id="log-toggle-icon" style="font-size:10px; color:rgba(148,163,184,0.4);">▲</span>
+  </div>
+  <div id="log-body"></div>
+</div>
+
+<!-- レイヤー切り替えボタン（左下） -->
+<div id="controls">
+  <button id="btn-aircraft"   class="active" onclick="toggleLayer('aircraft')">✈ 航空機</button>
+  <button id="btn-earthquake" class="active" onclick="toggleLayer('earthquake')">⚡ 地震</button>
+  <button id="btn-ship"       class="active" onclick="toggleLayer('ship')">⚓ 船舶</button>
 </div>
 
 <script src="/static/js/layers.js"></script>
 <script src="/static/js/aircraft.js"></script>
 <script src="/static/js/earthquake.js"></script>
 <script src="/static/js/ship.js"></script>
+
+<script>
+function updateChips() {
+  const aircraftCount = Object.keys(aircraftMarkers).length;
+  const shipCount = Object.keys(shipMarkers).length;
+  document.getElementById("chip-aircraft").textContent = aircraftCount + " 航空機";
+  document.getElementById("chip-ship").textContent = shipCount + " 船舶";
+}
+setInterval(updateChips, 5000);
+</script>
+
 </body>
 </html>
