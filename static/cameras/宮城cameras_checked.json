@@ -1,0 +1,200 @@
+[
+  {
+    "name": "仙台駅前 (MMT)",
+    "city": "仙台市",
+    "pref": "宮城",
+    "map_url": "https://www.cametan.com/map/3058.html",
+    "youtube": "https://www.youtube.com/watch?v=rPAGOmumees",
+    "lat": 38.26192061686076,
+    "lon": 140.8814133408785,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "国分町",
+    "city": "仙台市",
+    "pref": "宮城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/channel/UC1rO0sBICCYQXCaFbl9-R5w/live",
+    "lat": 38.26287184620272,
+    "lon": 140.87001721671243,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "仙台駅前 (KHB)",
+    "city": "仙台市",
+    "pref": "宮城",
+    "map_url": "https://www.cametan.com/map/614.html",
+    "youtube": "https://www.youtube.com/watch?v=AinAZQgQp_s",
+    "lat": 38.25908227471821,
+    "lon": 140.88123473373915,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "仙台市役所本庁舎工事",
+    "city": "仙台市",
+    "pref": "宮城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=dvqM0l2C8dA",
+    "lat": 38.26745738266095,
+    "lon": 140.872798776299,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "泉中央",
+    "city": "仙台市",
+    "pref": "宮城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=Q3ZQNrQZWlM",
+    "lat": 38.322228188504056,
+    "lon": 140.88144472618058,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "仙台城跡から望む仙台市街",
+    "city": "仙台市",
+    "pref": "宮城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=Ado_7_DMTdc",
+    "lat": 38.25328879090941,
+    "lon": 140.85708052745042,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "仙台市街地と仙台城跡をつなぐ大橋",
+    "city": "仙台市",
+    "pref": "宮城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=vM5RkLiSn5E",
+    "lat": 38.25707946526478,
+    "lon": 140.85946372554992,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "仙台市南西部",
+    "city": "仙台市",
+    "pref": "宮城",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/channel/UCC3E2Ag5WIsueGSWQ_AndEw/live",
+    "lat": 38.23767708886821,
+    "lon": 140.89688911003702,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "東二番丁通り",
+    "city": "仙台市",
+    "pref": "宮城",
+    "map_url": "https://www.cametan.com/map/3899.html",
+    "youtube": "https://www.youtube.com/watch?v=9UNpXYB8rCQ",
+    "lat": 38.25504829858764,
+    "lon": 140.87841693924216,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "秋保温泉 ホテル華乃湯 駐車場エリア",
+    "city": "仙台市",
+    "pref": "宮城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=F8iZWeGk3Ho",
+    "lat": 38.22056755114506,
+    "lon": 140.73704334034406,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "仙台北環状線 (青葉区南吉成)",
+    "city": "仙台市",
+    "pref": "宮城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=2paFWVksZWo",
+    "lat": 38.2833809193059,
+    "lon": 140.81300988434128,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "愛宕上杉通 (青葉区上杉)",
+    "city": "仙台市",
+    "pref": "宮城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=MxgZz2Abc8k",
+    "lat": 38.27257651631505,
+    "lon": 140.87430881267565,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "涌谷町のパンプトラック",
+    "city": "石巻市",
+    "pref": "宮城",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/watch?v=OezlpZtoCcU",
+    "lat": 38.53514340359068,
+    "lon": 141.14292647293794,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "松島湾",
+    "city": "石巻市",
+    "pref": "宮城",
+    "map_url": null,
+    "youtube": "https://youtube.com/channel/UCJi5x4z7a8KT68r0CESZ98A/live",
+    "lat": 38.36493303095409,
+    "lon": 141.05672348058596,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "気仙沼市本吉町の空",
+    "city": "気仙沼市",
+    "pref": "宮城",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/watch?v=jOcmIJJ97hA",
+    "lat": 38.774311866283426,
+    "lon": 141.5130272988356,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "リスと小鳥の餌場 (遠刈田温泉)",
+    "city": "白石市",
+    "pref": "宮城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=ew5gTaZg0CE",
+    "lat": 38.125810238510326,
+    "lon": 140.56602098371485,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "仙台空港",
+    "city": "名取市",
+    "pref": "宮城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=prhi5doir6U",
+    "lat": 38.14437641682857,
+    "lon": 140.9317363270555,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "閖上港",
+    "city": "名取市",
+    "pref": "宮城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=zRT3miyL4YA",
+    "lat": 38.17511623010767,
+    "lon": 140.95765283830684,
+    "categories": [],
+    "embed": false
+  }
+]

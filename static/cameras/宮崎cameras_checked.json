@@ -1,0 +1,57 @@
+[
+  {
+    "name": "大淀川 橘橋付近",
+    "city": "宮崎市",
+    "pref": "宮崎",
+    "map_url": "https://www.cametan.com/map/5720.html",
+    "youtube": "https://www.youtube.com/watch?v=h9v4l3maqfs",
+    "lat": 31.907115847674454,
+    "lon": 131.42201004991992,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "宮崎空港",
+    "city": "宮崎市",
+    "pref": "宮崎",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=ETM2Gb2ks-4",
+    "lat": 31.873101600631728,
+    "lon": 131.44178680439148,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "国道10号 (宮崎市大橋)",
+    "city": "宮崎市",
+    "pref": "宮崎",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=6omZAc3u3vo",
+    "lat": 31.919301942481436,
+    "lon": 131.41069429503978,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "深島の海",
+    "city": "延岡市",
+    "pref": "宮崎",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=Ypv7BM9GWS8",
+    "lat": 32.72277820111438,
+    "lon": 131.9278412192273,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "諸塚村の山々",
+    "city": "日向市",
+    "pref": "宮崎",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=v8q_9QdZquc",
+    "lat": 32.52355120533713,
+    "lon": 131.29498836270724,
+    "categories": [],
+    "embed": true
+  }
+]

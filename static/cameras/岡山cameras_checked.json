@@ -1,0 +1,90 @@
+[
+  {
+    "name": "岡山空港",
+    "city": "岡山市",
+    "pref": "岡山",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=0nC9ws-BSJA",
+    "lat": 34.75999760097756,
+    "lon": 133.85343918035912,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "岡山市南区から見る瀬戸内海",
+    "city": "岡山市",
+    "pref": "岡山",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=FCwlyfXcLNE",
+    "lat": 34.5747108827836,
+    "lon": 134.0349990446241,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "旭川水系百間川 (朝間樋門)",
+    "city": "岡山市",
+    "pref": "岡山",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=yEw4DDWt0c4",
+    "lat": 34.68260584358763,
+    "lon": 133.94499533664631,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "鷲羽山からの眺め",
+    "city": "倉敷市",
+    "pref": "岡山",
+    "map_url": "https://www.cametan.com/map/2890.html",
+    "youtube": "https://www.youtube.com/watch?v=FLKZxsNoT0U",
+    "lat": 34.4343377736515,
+    "lon": 133.8130248684714,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "津山城",
+    "city": "津山市",
+    "pref": "岡山",
+    "map_url": "https://www.cametan.com/map/3733.html",
+    "youtube": "https://www.youtube.com/watch?v=nJgX9dQoLRU",
+    "lat": 35.06153689817767,
+    "lon": 134.00613573353434,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "備中松山城雲海展望台(AM4:00~PM11:00)",
+    "city": "井原市",
+    "pref": "岡山",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=htlgaBKRajc",
+    "lat": 34.813579975938644,
+    "lon": 133.63305931187574,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "高梁市巨瀬町の風景",
+    "city": "高梁市",
+    "pref": "岡山",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/@kose-shio/live",
+    "lat": 34.877547589438166,
+    "lon": 133.64221796764923,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "牛窓からの瀬戸内海・前島",
+    "city": "備前市",
+    "pref": "岡山",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/@setouchi_live/live",
+    "lat": 34.60783529933408,
+    "lon": 134.16427902097533,
+    "categories": [],
+    "embed": false
+  }
+]

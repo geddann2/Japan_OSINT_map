@@ -36,6 +36,10 @@
     <span class="chip-dot chip-dot-teal"></span>
     <span id="chip-ship">— 船舶</span>
   </div>
+  <div class="status-chip">
+    <span class="chip-dot" style="background:#a78bfa"></span>
+    <span id="chip-api">飛行機API — 回目</span>
+</div>
 </div>
 
 <div id="map"></div>
@@ -51,17 +55,31 @@
   <div id="log-body"></div>
 </div>
 
+
+
+
+<button onclick="updateCamera()" style="position:fixed;bottom:60px;left:16px;z-index:1000;
+  padding:15px 14px;background:rgba(10,12,18,0.85);border:0.5px solid rgba(255,255,255,0.08);
+  border-radius:8px;color:#94a3b8;font-size:12px;cursor:pointer;">
+  📷 再読込
+</button>
+
+
+
 <!-- レイヤー切り替えボタン（左下） -->
 <div id="controls">
   <button id="btn-aircraft"   class="active" onclick="toggleLayer('aircraft')">✈ 航空機</button>
   <button id="btn-earthquake" class="active" onclick="toggleLayer('earthquake')">⚡ 地震</button>
   <button id="btn-ship"       class="active" onclick="toggleLayer('ship')">⚓ 船舶</button>
+  <button id="btn-camera" class="active" onclick="toggleLayer('camera')">📷 カメラ</button>
 </div>
 
 <script src="/static/js/layers.js"></script>
+<script src="/static/js/prefecture_border.js"></script>
 <script src="/static/js/aircraft.js"></script>
 <script src="/static/js/earthquake.js"></script>
 <script src="/static/js/ship.js"></script>
+<script src="/static/js/camera.js"></script>
 
 <script>
 function updateChips() {

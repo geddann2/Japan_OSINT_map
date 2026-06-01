@@ -1,0 +1,68 @@
+[
+  {
+    "name": "高松市上天神",
+    "city": "高松市",
+    "pref": "香川",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=FEFBzlvzfjU",
+    "lat": 34.307959967112865,
+    "lon": 134.0370974398841,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "旧香川県立体育館",
+    "city": "高松市",
+    "pref": "香川",
+    "map_url": null,
+    "youtube": "https://youtube.com/channel/UCWJvv6F4u2X_kbYWuYl9i2g/live",
+    "lat": 34.34480179183505,
+    "lon": 134.06331386489592,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "高山航空公園から見る高松空港",
+    "city": "高松市",
+    "pref": "香川",
+    "map_url": "https://www.cametan.com/map/4267.html",
+    "youtube": "https://www.youtube.com/watch?v=xi47AfuVnWA",
+    "lat": 34.20209069400816,
+    "lon": 133.96692399585592,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "金倉川 善通寺市金蔵寺橋",
+    "city": "丸亀市",
+    "pref": "香川",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=99OidxZcsh8",
+    "lat": 34.24993070568886,
+    "lon": 133.78403702820188,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "瀬戸大橋",
+    "city": "丸亀市",
+    "pref": "香川",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=knkFjVqZdZI",
+    "lat": 34.38270407966942,
+    "lon": 133.81925802925477,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "三豊市 父母ヶ浜",
+    "city": "丸亀市",
+    "pref": "香川",
+    "map_url": "https://www.cametan.com/map/3090.html",
+    "youtube": "https://www.youtube.com/watch?v=u6e_v5ntnyw",
+    "lat": 34.19112256659138,
+    "lon": 133.6484856914523,
+    "categories": [],
+    "embed": true
+  }
+]
