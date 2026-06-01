@@ -1,0 +1,24 @@
+[
+  {
+    "name": "浜崎海岸",
+    "city": "唐津市",
+    "pref": "佐賀",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/channel/UCD6AZR3EYik2AUJsuh1VfJA/live",
+    "lat": 33.4548601458428,
+    "lon": 130.04040299892552,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "呼子町 風の見える丘",
+    "city": "唐津市",
+    "pref": "佐賀",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/@netfour-info/live",
+    "lat": 33.54940257619084,
+    "lon": 129.88074337576643,
+    "categories": [],
+    "embed": false
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "帯屋町商店街",
+    "city": "高知市",
+    "pref": "高知",
+    "map_url": "https://www.cametan.com/map/4244.html",
+    "youtube": "https://www.youtube.com/channel/UCkTCKXGQwSr2apB6x0ITNvw/live",
+    "lat": 33.56017663629151,
+    "lon": 133.53650547615834,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "テレビ高知 情報カメラ",
+    "city": "高知市",
+    "pref": "高知",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=dEG2kFJnSf4",
+    "lat": 33.557192863831375,
+    "lon": 133.54776758107562,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "RKC高知放送 お天気カメラ映像",
+    "city": "高知市",
+    "pref": "高知",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=uo-sHAw3cr0",
+    "lat": 33.54732189294139,
+    "lon": 133.67406878098896,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "東洋町 白浜海水浴場",
+    "city": "室戸市",
+    "pref": "高知",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=-5l5nu2-WcA",
+    "lat": 33.5424980320046,
+    "lon": 134.2925259812041,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "安芸市 伊尾木洞",
+    "city": "室戸市",
+    "pref": "高知",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=nOqYz_8SXO0",
+    "lat": 33.491300006390205,
+    "lon": 133.93325132687076,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "いの町 にこ淵",
+    "city": "土佐市",
+    "pref": "高知",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=DYZNt9R5szY",
+    "lat": 33.704266357977374,
+    "lon": 133.34077117076367,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "竜串湾桜浜",
+    "city": "土佐清水市",
+    "pref": "高知",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/@tosashimizu-geopark/live",
+    "lat": 32.79104215969163,
+    "lon": 132.8631649549971,
+    "categories": [],
+    "embed": false
+  }
+]

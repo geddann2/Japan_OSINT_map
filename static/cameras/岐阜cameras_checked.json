@@ -1,0 +1,243 @@
+[
+  {
+    "name": "岐阜市柳ケ瀬",
+    "city": "岐阜市",
+    "pref": "岐阜",
+    "map_url": "https://www.cametan.com/map/4345.html",
+    "youtube": "https://www.youtube.com/watch?v=Ck9kfes-Jjw",
+    "lat": 35.420013783163355,
+    "lon": 136.75950734227038,
+    "categories": []
+  },
+  {
+    "name": "岐阜市の天気",
+    "city": "岐阜市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=Atsd04oUZGM",
+    "lat": 35.41996055313999,
+    "lon": 136.7597305722106,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "岐阜市加納新本町 鍵の専門店前",
+    "city": "岐阜市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=ATMGirVhCMc",
+    "lat": 35.40727167869818,
+    "lon": 136.74763439502033,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "金華山山頂",
+    "city": "岐阜市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/channel/UCMmgo68hIr-Hv1XZrgcODVA/live",
+    "lat": 35.43237456460271,
+    "lon": 136.78067201802764,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "大垣市の天気",
+    "city": "大垣市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/@24H_Security/live",
+    "lat": 35.3577822698027,
+    "lon": 136.6037582984884,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "養老鉄道 西大垣駅",
+    "city": "大垣市",
+    "pref": "岐阜",
+    "map_url": "https://www.cametan.com/map/4851.html",
+    "youtube": "https://www.youtube.com/@ogaki_live/live",
+    "lat": 35.35788080869344,
+    "lon": 136.60366738521148,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "大垣市内",
+    "city": "大垣市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=iquv3cQmcRI",
+    "lat": 35.35798386211095,
+    "lon": 136.61236935519406,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "飛騨高山 中橋",
+    "city": "高山市",
+    "pref": "岐阜",
+    "map_url": "https://www.cametan.com/map/3049.html",
+    "youtube": "https://www.youtube.com/watch?v=QJT32i4I4Uk",
+    "lat": 36.14011679066611,
+    "lon": 137.25894842605345,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "西穂高口駅 山頂展望台からの眺望",
+    "city": "高山市",
+    "pref": "岐阜",
+    "map_url": "https://www.cametan.com/map/992.html",
+    "youtube": "https://youtube.com/channel/UC3i9y6EYpXlvrHLm2wMbOkQ/live",
+    "lat": 36.26812951126427,
+    "lon": 137.60170504386392,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "奥飛騨温泉郷からの槍ヶ岳",
+    "city": "高山市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/@yarimikan/live",
+    "lat": 36.266865523622606,
+    "lon": 137.5645261192634,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "アルプス展望公園スカイパークからの眺望",
+    "city": "高山市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=7C7AlZ_x4gI",
+    "lat": 36.146321146829045,
+    "lon": 137.24056197342657,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "高山陣屋前",
+    "city": "高山市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=9cFMuvFpiBg",
+    "lat": 36.13999282912421,
+    "lon": 137.25867894382571,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "平湯温泉スキー場",
+    "city": "高山市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/@hirayu-no-mori/live",
+    "lat": 36.18474346056201,
+    "lon": 137.55217534309307,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "庄川 (高山市)",
+    "city": "高山市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/channel/UC3b_afzIVjdVAPJeij-IUqg/live",
+    "lat": 36.030172505673285,
+    "lon": 136.95658935349266,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "高山市民スキー場 (モンデウスパーク)",
+    "city": "高山市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/@montdeus-live/live",
+    "lat": 36.061518870809074,
+    "lon": 137.22607180833603,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "JR多治見駅付近",
+    "city": "多治見市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://youtube.com/@yokochin-h/live",
+    "lat": 35.33390906137715,
+    "lon": 137.11929830884893,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "犬山城",
+    "city": "関市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/channel/UCrfYUN7eynxM-XoFg-aJe3g/live",
+    "lat": 35.38643525551884,
+    "lon": 136.9366225709402,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "付知峡・不動公園駐車場",
+    "city": "中津川市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/channel/UCayPdTOk9BFT4iwkwZOiDpw/live",
+    "lat": 35.69821833561373,
+    "lon": 137.44087113398737,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "麗澤瑞浪ゴルフ俱楽部",
+    "city": "瑞浪市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=50ZGnelr23w",
+    "lat": 35.377309682802895,
+    "lon": 137.2984081542669,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "クラウンカントリークラブ",
+    "city": "瑞浪市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=B5znTopzF6Y",
+    "lat": 35.32886500587324,
+    "lon": 137.32692186394422,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "名神高速道路 岐阜羽島IC付近 (THK)",
+    "city": "羽島市",
+    "pref": "岐阜",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=hgogqv0lZpE",
+    "lat": 35.30823662590421,
+    "lon": 136.6896382076974,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "名神高速道路 岐阜羽島IC付近 (CTV)",
+    "city": "羽島市",
+    "pref": "岐阜",
+    "map_url": "https://www.cametan.com/map/4044.html",
+    "youtube": "https://www.youtube.com/watch?v=5as8y6xA-kQ",
+    "lat": 35.30832479778616,
+    "lon": 136.6896489052253,
+    "categories": [],
+    "embed": true
+  }
+]

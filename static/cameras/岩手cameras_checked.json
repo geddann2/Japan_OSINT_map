@@ -1,0 +1,145 @@
+[
+  {
+    "name": "渋民・川崎周辺",
+    "city": "盛岡市",
+    "pref": "岩手",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/@acsakamoto/live",
+    "lat": 39.855042303358076,
+    "lon": 141.1635944467184,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "盛岡の空",
+    "city": "盛岡市",
+    "pref": "岩手",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/channel/UChs6c1XJPL1P_JL-oDQzRLg/live",
+    "lat": 39.70377748548732,
+    "lon": 141.15401456469357,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "宮古港",
+    "city": "宮古市",
+    "pref": "岩手",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=91zRZrbzhfA",
+    "lat": 39.640571111609184,
+    "lon": 141.96645154245016,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "宮古市刈屋",
+    "city": "宮古市",
+    "pref": "岩手",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/channel/UCS9mxO8wgJWc98u1EinvhVA/live",
+    "lat": 39.66235512616948,
+    "lon": 141.73784439951172,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "荒神神社",
+    "city": "大船渡市",
+    "pref": "岩手",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=3VGlOVZTQDQ",
+    "lat": 39.30322548361652,
+    "lon": 141.58632986278613,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "いわて花巻空港",
+    "city": "花巻市",
+    "pref": "岩手",
+    "map_url": "https://www.cametan.com/map/3393.html",
+    "youtube": "https://m.youtube.com/watch?v=XHnrgK4sEDE",
+    "lat": 39.421381453270236,
+    "lon": 141.13813596080436,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "夏油高原スキー場",
+    "city": "北上市",
+    "pref": "岩手",
+    "map_url": "https://www.cametan.com/map/2300.html",
+    "youtube": "https://www.youtube.com/watch?v=rxjCkkyyUjs",
+    "lat": 39.23704695617721,
+    "lon": 140.90554212616118,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "奥州市水沢",
+    "city": "北上市",
+    "pref": "岩手",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=gVycZXz3QOw",
+    "lat": 39.14599922376555,
+    "lon": 141.1254201326981,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "久慈情報カメラ (IAT)",
+    "city": "久慈市",
+    "pref": "岩手",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=V8J_-LV6eyc",
+    "lat": 40.189561311215456,
+    "lon": 141.79493871211164,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "久慈港 (MIT)",
+    "city": "久慈市",
+    "pref": "岩手",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=lj7cUMQWbWc",
+    "lat": 40.1896142959539,
+    "lon": 141.79496965619836,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "奥州市 本浄寺",
+    "city": "一関市",
+    "pref": "岩手",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=nFhcKtH6s6I",
+    "lat": 39.0989137862818,
+    "lon": 141.08049138036412,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "八幡平温泉郷からの岩手山",
+    "city": "八幡平市",
+    "pref": "岩手",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=wNm17Fe-Sto",
+    "lat": 39.90526290002623,
+    "lon": 140.97725067338925,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "八幡平パノラマスキー場",
+    "city": "八幡平市",
+    "pref": "岩手",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/channel/UCIJILlnhQs_OpQeT2VK910A/live",
+    "lat": 39.894241191761054,
+    "lon": 140.97560223089064,
+    "categories": [],
+    "embed": true
+  }
+]

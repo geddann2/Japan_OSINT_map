@@ -121,10 +121,10 @@ html, body {
 /* 航空機ステータス */
 #aircraft-status {
   position: fixed;
-  bottom: 2.5%;
-  right: 10px;
+  bottom: 0%;
+  left: 1%;
   color: #4fc3f7;
-  font-size: 11px;
+  font-size: 13px;
   z-index: 1000;
   letter-spacing: 0.03em;
 }
@@ -421,3 +421,94 @@ html, body {
   color: #fff;
   font-weight: 500;
 }
+
+#btn-camera.active {
+ border-color: rgba(167, 139, 250, 0.35); color: #a78bfa;
+ }
+ /* カメラポップアップ */
+#camera-popup {
+  position: fixed;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 280px;
+  background: rgba(6, 8, 14, 0.96);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  min-width: 240px;
+  min-height: 180px;
+}
+
+#camera-popup-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-bottom: 0.5px solid rgba(255,255,255,0.06);
+  cursor: move;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+#camera-popup-title {
+  font-size: 12px;
+  font-weight: 500;
+  color: #e2e8f0;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#camera-popup-sub {
+  font-size: 10px;
+  color: rgba(148,163,184,0.5);
+  white-space: nowrap;
+}
+
+#camera-popup-close {
+  background: none;
+  border: none;
+  color: rgba(148,163,184,0.4);
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0 2px;
+  flex-shrink: 0;
+}
+
+#camera-popup-close:hover {
+  color: rgba(148,163,184,0.9);
+}
+
+#camera-popup-body {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 0 0 10px 10px;
+}
+
+#camera-iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 0 0 8px 8px;
+}
+
+/* リサイズハンドル（右下） */
+#camera-popup-resize {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  cursor: se-resize;
+  background: linear-gradient(135deg, transparent 50%, rgba(148,163,184,0.25) 50%);
+  border-radius: 0 0 10px 0;
+}
+
+

@@ -1,0 +1,101 @@
+[
+  {
+    "name": "土浦市城北町 国道125号",
+    "city": "土浦市",
+    "pref": "茨城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=40UAn6JjiBo",
+    "lat": 36.08757090218949,
+    "lon": 140.19957923401697,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "つくば駅前",
+    "city": "土浦市",
+    "pref": "茨城",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/channel/UCgrNWXvhf-FDCyK6_VQjI5g/live",
+    "lat": 36.08359107349772,
+    "lon": 140.11267150842815,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "トミンモーターランド",
+    "city": "土浦市",
+    "pref": "茨城",
+    "map_url": null,
+    "youtube": "https://youtube.com/channel/UCzHKrJQVunXgC4McmSor7aQ/live",
+    "lat": 36.11114508616548,
+    "lon": 140.31873309295688,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "美浦村 高橋川",
+    "city": "土浦市",
+    "pref": "茨城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=ra8Zv1PN6g0",
+    "lat": 35.998319193483134,
+    "lon": 140.32318423792347,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "女体山山頂からの眺め",
+    "city": "石岡市",
+    "pref": "茨城",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/watch?v=_kNCRJ2Ray0",
+    "lat": 36.224831304690284,
+    "lon": 140.1061713260081,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "女体山頂合流地点",
+    "city": "石岡市",
+    "pref": "茨城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=-S6yaOtupfQ",
+    "lat": 36.225739697748295,
+    "lon": 140.10640077957584,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "筑波山 御幸ヶ原",
+    "city": "石岡市",
+    "pref": "茨城",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/watch?v=PtIYII93OoE",
+    "lat": 36.22600403031664,
+    "lon": 140.10077096934563,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "筑波サーキット",
+    "city": "結城市",
+    "pref": "茨城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/channel/UCYknmQAwkJcn6hpbxtXuf8w/live",
+    "lat": 36.150309886945756,
+    "lon": 139.91934405853698,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "筑波山梅林",
+    "city": "下妻市",
+    "pref": "茨城",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=2CKn-Dp8eJE",
+    "lat": 36.21432584345102,
+    "lon": 140.09087740423774,
+    "categories": [],
+    "embed": true
+  }
+]

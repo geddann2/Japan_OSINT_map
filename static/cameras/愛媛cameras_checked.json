@@ -1,0 +1,167 @@
+[
+  {
+    "name": "松山城",
+    "city": "松山市",
+    "pref": "愛媛",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=ZsoV_eLAngM",
+    "lat": 33.844531155151664,
+    "lon": 132.7662342938323,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "松山市街 (RNB)",
+    "city": "松山市",
+    "pref": "愛媛",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=YBaIX7V-tYQ",
+    "lat": 33.841064148728556,
+    "lon": 132.76132481963543,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "松山空港 (EBC)",
+    "city": "松山市",
+    "pref": "愛媛",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/watch?v=L9OqeSJgzKA",
+    "lat": 33.82895824746042,
+    "lon": 132.70377449218066,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "松山空港 (RNB)",
+    "city": "松山市",
+    "pref": "愛媛",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=CFh9z-6IeEE",
+    "lat": 33.82855460654619,
+    "lon": 132.70440395555323,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "道後温泉本館",
+    "city": "松山市",
+    "pref": "愛媛",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=cmm3DMDBKMM",
+    "lat": 33.85207153287881,
+    "lon": 132.78683050207707,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "松山市南クリーンセンター入口付近",
+    "city": "松山市",
+    "pref": "愛媛",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/watch?v=C0gpM_qIIl0",
+    "lat": 33.80671175072707,
+    "lon": 132.7389407311731,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "しまなみ海道 (EBC)",
+    "city": "今治市",
+    "pref": "愛媛",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/watch?v=OV0JEv6C2QQ",
+    "lat": 34.114025931722935,
+    "lon": 132.9779096385354,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "しまなみ海道 来島海峡大橋 (eat)",
+    "city": "今治市",
+    "pref": "愛媛",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=Pcj4xeEgbj8",
+    "lat": 34.11990979925893,
+    "lon": 133.03348522409323,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "波止浜港",
+    "city": "今治市",
+    "pref": "愛媛",
+    "map_url": null,
+    "youtube": "https://youtube.com/channel/UCiZCDyBCRDzl_mwdZ9uL92w/live",
+    "lat": 34.10684704530628,
+    "lon": 132.96977133358374,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "東予港",
+    "city": "今治市",
+    "pref": "愛媛",
+    "map_url": null,
+    "youtube": "https://youtube.com/channel/UCtQ2rIhm1huo_nHgrsgDIig/live",
+    "lat": 33.94301276169702,
+    "lon": 133.09442730834283,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "宇和島港",
+    "city": "宇和島市",
+    "pref": "愛媛",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/watch?v=aJcTvBuj5AA",
+    "lat": 33.2219280703395,
+    "lon": 132.560361826787,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "御荘港",
+    "city": "宇和島市",
+    "pref": "愛媛",
+    "map_url": null,
+    "youtube": "https://youtube.com/channel/UCUmPg-CqPjvjJFlZowEBmGA/live",
+    "lat": 32.96506056613338,
+    "lon": 132.54480988391245,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "八幡浜港フェリー乗り場",
+    "city": "宇和島市",
+    "pref": "愛媛",
+    "map_url": "https://www.cametan.com/map/4234.html",
+    "youtube": "https://www.youtube.com/watch?v=XJ-o3WNR6Fk",
+    "lat": 33.45821775991161,
+    "lon": 132.41469308330093,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "八幡浜港フェリーターミナル 駐車場",
+    "city": "八幡浜市",
+    "pref": "愛媛",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=sm-Zo-FmN9E",
+    "lat": 33.45868168799752,
+    "lon": 132.4154959251207,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "三島川之江港",
+    "city": "新居浜市",
+    "pref": "愛媛",
+    "map_url": null,
+    "youtube": "https://youtube.com/channel/UC3Br7vuqYHcfrj7yPzjDkaA/live",
+    "lat": 33.985743100220006,
+    "lon": 133.54362715162907,
+    "categories": [],
+    "embed": false
+  }
+]
