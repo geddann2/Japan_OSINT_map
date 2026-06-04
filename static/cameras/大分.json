@@ -1,0 +1,79 @@
+[
+  {
+    "name": "道の駅たのうららからの別府湾",
+    "city": "大分市",
+    "pref": "大分",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/@PPCAM-MichinoekiTanourara/live",
+    "lat": 33.25596634356737,
+    "lon": 131.55580109391337,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "ななせダム",
+    "city": "大分市",
+    "pref": "大分",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/@PPCAM-MichinoekiNotsuharu/live",
+    "lat": 33.12682788452592,
+    "lon": 131.49229759760425,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "道の駅さがのせきからの別府湾",
+    "city": "大分市",
+    "pref": "大分",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/@PPCAM-MichinoekiSaganoseki/live",
+    "lat": 33.24728009878252,
+    "lon": 131.8283602010321,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "城島高原",
+    "city": "別府市",
+    "pref": "大分",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/channel/UCANnelBFKc87b7yujShu75w/live",
+    "lat": 33.26273515927232,
+    "lon": 131.42533222011147,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "志高湖",
+    "city": "別府市",
+    "pref": "大分",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=2_xb2wxic2s",
+    "lat": 33.26479891952185,
+    "lon": 131.4525536853231,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "英彦山 別所駐車場",
+    "city": "中津市",
+    "pref": "大分",
+    "map_url": "https://www.cametan.com/map/4444.html",
+    "youtube": "https://www.youtube.com/watch?v=eHrqIefbe9Q",
+    "lat": null,
+    "lon": null,
+    "categories": [],
+    "embed": null
+  },
+  {
+    "name": "大分空港",
+    "city": "豊後高田市",
+    "pref": "大分",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=sFhl7CFnNZA",
+    "lat": 33.476604895278875,
+    "lon": 131.73288764152397,
+    "categories": [],
+    "embed": true
+  }
+]

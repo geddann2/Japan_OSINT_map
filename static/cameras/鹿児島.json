@@ -1,0 +1,222 @@
+[
+  {
+    "name": "桜島と甲突川河口",
+    "city": "鹿児島市",
+    "pref": "鹿児島",
+    "map_url": "https://www.cametan.com/map/5326.html",
+    "youtube": "https://www.youtube.com/watch?v=WknwFmhKRdQ",
+    "lat": 31.573644954969396,
+    "lon": 130.56500525174366,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "桜島と鹿児島市街",
+    "city": "鹿児島市",
+    "pref": "鹿児島",
+    "map_url": "https://www.cametan.com/map/3266.html",
+    "youtube": "https://www.youtube.com/channel/UCynXCHprmOfyGzGSnqgp6Wg/live",
+    "lat": 31.575210348807456,
+    "lon": 130.5263658753673,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "鹿児島市街からの桜島",
+    "city": "鹿児島市",
+    "pref": "鹿児島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/@live_Sakurajima/live",
+    "lat": 31.573158516821437,
+    "lon": 130.51359514878393,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "根占港",
+    "city": "鹿屋市",
+    "pref": "鹿児島",
+    "map_url": "https://www.cametan.com/map/4137.html",
+    "youtube": "https://youtube.com/channel/UCFeyikwUUUs0ZpymtAF17ww/live",
+    "lat": 31.21609418754663,
+    "lon": 130.76309467963577,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "川内川 薩摩川内市太平橋",
+    "city": "出水市",
+    "pref": "鹿児島",
+    "map_url": "https://www.cametan.com/map/1383.html",
+    "youtube": "https://www.youtube.com/channel/UC_Q_rKZRdhEobNA2GaKYv1A/live",
+    "lat": 31.818755755334298,
+    "lon": 130.30445721160308,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "山川港",
+    "city": "指宿市",
+    "pref": "鹿児島",
+    "map_url": "https://www.cametan.com/map/4138.html",
+    "youtube": "https://www.youtube.com/channel/UC0-jXKasl4QD_WsSlXZnRvQ/live",
+    "lat": 31.20480346553689,
+    "lon": 130.63475603973683,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "アグリランドえいから望む開聞岳",
+    "city": "指宿市",
+    "pref": "鹿児島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/@BUZZEIGHTPICNICLIVE/live",
+    "lat": 31.304959202714226,
+    "lon": 130.526015203535,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "南九州市 アドベンチャーパーク森のかわなべ",
+    "city": "指宿市",
+    "pref": "鹿児島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=cXldbE9PZWw",
+    "lat": 31.43114513528603,
+    "lon": 130.47144468271955,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "オートキャンプ森のかわなべ ドッグラン",
+    "city": "指宿市",
+    "pref": "鹿児島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=MR6IioQBGtY",
+    "lat": 31.430055932000077,
+    "lon": 130.46908534018198,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "垂水市から望む桜島 (共同通信)",
+    "city": "垂水市",
+    "pref": "鹿児島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=NfR1Y-mYEtg",
+    "lat": 31.526860320054904,
+    "lon": 130.75818045245802,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "垂水市から望む桜島 (朝日新聞)",
+    "city": "垂水市",
+    "pref": "鹿児島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=CyVr8fBBRGQ",
+    "lat": 31.558028683332296,
+    "lon": 130.7198716164699,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "牛根麓から見る桜島 (MBC)",
+    "city": "垂水市",
+    "pref": "鹿児島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=Hmmk0eYn0cw",
+    "lat": 31.557340542819972,
+    "lon": 130.7255778426576,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "垂水市海潟から望む桜島 (KYT)",
+    "city": "垂水市",
+    "pref": "鹿児島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=c4o2HemaM68",
+    "lat": 31.529921667211042,
+    "lon": 130.69984102729612,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "鹿児島空港 (KYT)",
+    "city": "霧島市",
+    "pref": "鹿児島",
+    "map_url": "https://www.cametan.com/map/4884.html",
+    "youtube": "https://www.youtube.com/watch?v=pJC3BThpdio",
+    "lat": 31.800785523546814,
+    "lon": 130.71642884559515,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "坊津町秋目",
+    "city": "南さつま市",
+    "pref": "鹿児島",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/channel/UCVE4mohoDq_AcsR8YYspW8Q/live",
+    "lat": 31.358953053261953,
+    "lon": 130.2004029483643,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "岩屋公園キャンプ場の桜",
+    "city": "南さつま市",
+    "pref": "鹿児島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=oXaOIgopWEc",
+    "lat": 31.41896988070843,
+    "lon": 130.42636447630701,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "奄美空港",
+    "city": "奄美市",
+    "pref": "鹿児島",
+    "map_url": "https://www.cametan.com/map/4958.html",
+    "youtube": "https://www.youtube.com/watch?v=ZCTdrUlC0zE",
+    "lat": 28.431275521698655,
+    "lon": 129.7084389821993,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "徳之島亀津の街角",
+    "city": "奄美市",
+    "pref": "鹿児島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/channel/UCJslcB5ebC6TlUVx-FMeI5Q/live",
+    "lat": 27.73713450068038,
+    "lon": 129.02130071091793,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "諏訪之瀬島",
+    "city": "奄美市",
+    "pref": "鹿児島",
+    "map_url": "https://www.cametan.com/map/3025.html",
+    "youtube": "https://www.youtube.com/watch?v=NxEBq23QqIg",
+    "lat": 29.83766976655581,
+    "lon": 129.85289947492848,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "屋久島",
+    "city": "永田",
+    "pref": "鹿児島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/live/ekbyrBTPgDk?si=BBRMhxrHFaj9X80l",
+    "lat": 30.39397556975871,
+    "lon": 130.43178193096415,
+    "categories": [],
+    "embed": false
+  }
+]

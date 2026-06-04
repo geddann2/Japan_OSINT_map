@@ -9,7 +9,7 @@ CAMERAS_DIR = os.path.join(os.path.dirname(__file__), "..", "static", "cameras")
 def get_camera():
     results = []
 
-    pattern = os.path.join(CAMERAS_DIR, "*_checked.json")
+    pattern = os.path.join(CAMERAS_DIR, "*.json")
     for path in glob.glob(pattern):
         try:
             with open(path, encoding="utf-8") as f:
@@ -24,7 +24,7 @@ def get_camera():
                     "lat":     cam["lat"],
                     "lon":     cam["lon"],
                     "youtube": cam.get("youtube"),
-                    "embed":   cam["embed"] if "embed" in cam else "__none__",
+                    "embed": cam.get("embed", None),
                     "has_embed": "embed" in cam,
                 })
         except Exception as e:
@@ -45,7 +45,7 @@ def set_embed():
     if not youtube_url or embed is None:
         return jsonify({"error": "invalid params"}), 400
 
-    pattern = os.path.join(CAMERAS_DIR, "*_checked.json")
+    pattern = os.path.join(CAMERAS_DIR, "*.json")
     for path in glob.glob(pattern):
         try:
             with open(path, encoding="utf-8") as f:

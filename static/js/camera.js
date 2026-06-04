@@ -19,12 +19,6 @@ function toEmbedUrl(url) {
     return null;
 }
 
-function getIconUrl(embed) {
-    if (!("embed" in Object.assign({}, {embed}))) return '/static/images/camera_null.png'; // フィールドなし
-    if (embed === false) return '/static/images/camera_blank.png'; // 埋め込みNG
-    return '/static/images/camera.png'; // true or null
-}
-
 function setEmbed(youtubeUrl, embedVal) {
     fetch('/api/camera/embed', {
         method: 'POST',
@@ -167,14 +161,17 @@ function updateCamera() {
     fetch('/api/camera')
     .then(res => res.json())
     .then(data => {
+        // カウント表示
+        const chipCamera = document.getElementById("chip-camera");
+        if (chipCamera) chipCamera.textContent = `${data.length} カメラ`;
+
         const active = new Set();
 
         data.forEach(cam => {
             const key = `${cam.lat}_${cam.lon}_${cam.name}`;
             active.add(key);
 
-            // embedフィールドの有無でアイコンを切り替え
-            const iconUrl = !cam.has_embed
+            const iconUrl = !cam.has_embed || cam.embed === null
                 ? '/static/images/camera_null.png'
                 : cam.embed === false
                     ? '/static/images/camera_blank.png'
@@ -186,15 +183,16 @@ function updateCamera() {
                 iconAnchor: [12, 12],
             });
 
+            // 既存マーカーは削除して作り直す（camオブジェクトを最新に保つため）
             if (cameraMarkers[key]) {
-                // アイコンを更新
-                cameraMarkers[key].setIcon(icon);
-            } else {
-                cameraMarkers[key] = L.marker([cam.lat, cam.lon], { icon })
-                    .on('click', () => openCameraPopup(cam));
-                if (layerVisible.camera) {
-                    cameraMarkers[key].addTo(map);
-                }
+                map.removeLayer(cameraMarkers[key]);
+                delete cameraMarkers[key];
+            }
+
+            cameraMarkers[key] = L.marker([cam.lat, cam.lon], { icon })
+                .on('click', () => openCameraPopup(cam));
+            if (layerVisible.camera) {
+                cameraMarkers[key].addTo(map);
             }
         });
 

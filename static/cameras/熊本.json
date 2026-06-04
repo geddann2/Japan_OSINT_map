@@ -139,7 +139,8 @@
     "youtube": "https://m.youtube.com/watch?v=OYO_IZpUhOw",
     "lat": 32.213386964813765,
     "lon": 130.76054573352198,
-    "categories": []
+    "categories": [],
+    "embed": true
   },
   {
     "name": "球磨川(大橋)",

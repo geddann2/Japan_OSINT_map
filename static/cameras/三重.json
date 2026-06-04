@@ -1,0 +1,178 @@
+[
+  {
+    "name": "近鉄名古屋線 久居駅",
+    "city": "津市",
+    "pref": "三重",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/@Hisai_Building/live",
+    "lat": 34.67684667190368,
+    "lon": 136.4783813293212,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "青山高原保険休養地",
+    "city": "津市",
+    "pref": "三重",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=VltbyTmhu6Y",
+    "lat": 34.65435720227547,
+    "lon": 136.26700666069692,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "松阪市 霜ふり本舗 (精肉店)",
+    "city": "津市",
+    "pref": "三重",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/channel/UCbZjFNgCzd3QuAJG07wt5ZQ/live",
+    "lat": 34.53700800986704,
+    "lon": 136.59643591617484,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "ごかつら池ふるさと村 産直市場",
+    "city": "津市",
+    "pref": "三重",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/watch?v=5LKtJEn1Mco",
+    "lat": 34.46707299740362,
+    "lon": 136.5521438310749,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "四日市市クリーンセンター",
+    "city": "四日市市",
+    "pref": "三重",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=t8s5qsyPDI8",
+    "lat": 35.01095735446774,
+    "lon": 136.61668072650647,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "長良川河口堰 魚道観察窓",
+    "city": "四日市市",
+    "pref": "三重",
+    "map_url": null,
+    "youtube": "https://youtube.com/channel/UCzVvZFWfXBR-hAcD199v9mw/live",
+    "lat": 35.08191617235013,
+    "lon": 136.6993964825533,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "三岐鉄道 大安駅前",
+    "city": "四日市市",
+    "pref": "三重",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=vH6ukDfV_jU",
+    "lat": 35.09213391655576,
+    "lon": 136.54529466647895,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "鳥羽マリンターミナル",
+    "city": "伊勢市",
+    "pref": "三重",
+    "map_url": "https://www.cametan.com/map/4563.html",
+    "youtube": "https://www.youtube.com/watch?v=HRPuSpah5Sw",
+    "lat": 34.49034609396092,
+    "lon": 136.84516631241726,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "鳥羽水族館 ラッコ水槽",
+    "city": "伊勢市",
+    "pref": "三重",
+    "map_url": "https://www.cametan.com/map/5230.html",
+    "youtube": "https://www.youtube.com/watch?v=M--DaeXPHAM",
+    "lat": 34.48071559085731,
+    "lon": 136.84649630761328,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "南伊勢町 神前浦",
+    "city": "松阪市",
+    "pref": "三重",
+    "map_url": "https://www.cametan.com/map/5160.html",
+    "youtube": "https://www.youtube.com/watch?v=SXogmIdVoFE",
+    "lat": 34.27580006063559,
+    "lon": 136.5012653130169,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "蟹江町 交通安全洗車場",
+    "city": "桑名市",
+    "pref": "三重",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/watch?v=hsltDMJb_EI",
+    "lat": 35.12231037699533,
+    "lon": 136.77213122177488,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "中部国際空港 (セントレア)",
+    "city": "鈴鹿市",
+    "pref": "三重",
+    "map_url": "https://www.cametan.com/map/4484.html",
+    "youtube": "https://www.youtube.com/watch?v=N1_qXtzWA30",
+    "lat": 34.858077461389406,
+    "lon": 136.81413686450733,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "須賀利",
+    "city": "尾鷲市",
+    "pref": "三重",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=ezlUcFr7YY0",
+    "lat": 33.93839053142896,
+    "lon": 136.1805956405482,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "御浜町神木 なかよしステーション (直売所)",
+    "city": "尾鷲市",
+    "pref": "三重",
+    "map_url": null,
+    "youtube": "https://youtube.com/channel/UCpSbJk1nILVgSSqCaSZVjMw/live",
+    "lat": 33.86901395802798,
+    "lon": 136.02757660277518,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "石鏡港",
+    "city": "鳥羽市",
+    "pref": "三重",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=X8zdGC3C85E",
+    "lat": 34.44242671815223,
+    "lon": 136.91903624687265,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "いなべ市から望む藤原岳・竜ヶ岳",
+    "city": "いなべ市",
+    "pref": "三重",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=TvwUbbGvjgc",
+    "lat": 35.10502641626014,
+    "lon": 136.52480142323273,
+    "categories": [],
+    "embed": false
+  }
+]
