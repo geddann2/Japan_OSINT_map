@@ -63,7 +63,6 @@ function updateAircraft() {
         const data = result.data;
         const count = result.api_count ?? "—";
 
-        // 左下ステータス
         const statusEl = document.getElementById("aircraft-status");
         if (statusEl) {
             statusEl.textContent = result.cached
@@ -72,7 +71,6 @@ function updateAircraft() {
             statusEl.style.color = result.cached ? "#aaa" : "#4fc3f7";
         }
 
-        // 右上チップ
         const chipApi = document.getElementById("chip-api");
         if (chipApi) chipApi.textContent = `飛行機API ${count}回目`;
 
@@ -83,14 +81,20 @@ function updateAircraft() {
             if (ac.on_ground) return;
             active.add(ac.icao);
 
-            saveRoutePoint(ac.icao, ac.lat, ac.lon, now);
+            // DB保存・メモリ追記は新データのときだけ
+            if (!result.cached) {
+                saveRoutePoint(ac.icao, ac.lat, ac.lon, now);
 
-            if (!aircraftHistory[ac.icao]) aircraftHistory[ac.icao] = [];
-            aircraftHistory[ac.icao].push({ lat: ac.lat, lon: ac.lon, ts: now });
+                if (!aircraftHistory[ac.icao]) aircraftHistory[ac.icao] = [];
+                aircraftHistory[ac.icao].push({ lat: ac.lat, lon: ac.lon, ts: now });
+            }
 
+            // ルートラインはメモリだけで更新（DBフェッチなし）
             if (activeAircraftRoute === ac.icao && aircraftRouteLines[ac.icao]) {
-                const latlngs = aircraftHistory[ac.icao].map(p => [p.lat, p.lon]);
-                aircraftRouteLines[ac.icao].setLatLngs(latlngs);
+                const pts = aircraftHistory[ac.icao];
+                if (pts && pts.length >= 2) {
+                    aircraftRouteLines[ac.icao].setLatLngs(pts.map(p => [p.lat, p.lon]));
+                }
             }
 
             const icon = L.icon({
@@ -135,4 +139,4 @@ function updateAircraft() {
 }
 
 updateAircraft();
-setInterval(updateAircraft, 60000);
+setInterval(updateAircraft, 30000);

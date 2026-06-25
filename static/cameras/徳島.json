@@ -1,0 +1,134 @@
+[
+  {
+    "name": "新町橋・眉山",
+    "city": "徳島市",
+    "pref": "徳島",
+    "map_url": "https://www.cametan.com/map/4272.html",
+    "youtube": "https://www.youtube.com/@Tokushima-Bizan-livecamera/live",
+    "lat": 34.07179370745201,
+    "lon": 134.54927408678074,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "吉野川バイパス (徳島市新蔵町)",
+    "city": "徳島市",
+    "pref": "徳島",
+    "map_url": "https://www.cametan.com/map/4481.html",
+    "youtube": "https://www.youtube.com/watch?v=luOqDxsRiPU",
+    "lat": 34.070014283113295,
+    "lon": 134.5581428636383,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "文化の森総合公園 シンボル広場",
+    "city": "徳島市",
+    "pref": "徳島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/@Tokushimabunka/live",
+    "lat": 34.04009414172634,
+    "lon": 134.52630049682983,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "神田瀬川 小松島市中郷町",
+    "city": "徳島市",
+    "pref": "徳島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=JEsB_N99fCU",
+    "lat": 34.009533476011754,
+    "lon": 134.5774378262465,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "大谷川 鳴門市大麻町大谷",
+    "city": "徳島市",
+    "pref": "徳島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=xjYDjAubw_A",
+    "lat": 34.16415865006799,
+    "lon": 134.5412048984771,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "那賀川 阿南市加茂谷",
+    "city": "阿南市",
+    "pref": "徳島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=58abKQ0oPcE",
+    "lat": 33.91696661747271,
+    "lon": 134.55070927435807,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "岡川 阿南市宝田町平岡",
+    "city": "阿南市",
+    "pref": "徳島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=m_P86qc6mvk",
+    "lat": 33.92856980585858,
+    "lon": 134.63091795658804,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "勝浦町 星谷橋",
+    "city": "阿南市",
+    "pref": "徳島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=fgE74IC74DY",
+    "lat": 33.934484817899985,
+    "lon": 134.52172211711147,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "川田川 吉野川市山川町井上",
+    "city": "吉野川市",
+    "pref": "徳島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=h8c7_AY_09w",
+    "lat": 34.043479392257716,
+    "lon": 134.22691646851467,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "穴吹川 美馬市穴吹町",
+    "city": "吉野川市",
+    "pref": "徳島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=EzDNDEhI-UE",
+    "lat": 34.05059489666394,
+    "lon": 134.17379334377148,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "山口谷川 東みよし町中庄",
+    "city": "美馬市",
+    "pref": "徳島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=dGOFhkimZUg",
+    "lat": 34.03491022350736,
+    "lon": 133.96633704821593,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "加茂谷川 東みよし町加茂",
+    "city": "美馬市",
+    "pref": "徳島",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=loqLmlhWjec",
+    "lat": 34.04224393553391,
+    "lon": 133.9366250420814,
+    "categories": [],
+    "embed": true
+  }
+]

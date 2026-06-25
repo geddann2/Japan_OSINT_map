@@ -1,0 +1,79 @@
+[
+  {
+    "name": "大和西大寺駅付近",
+    "city": "奈良市",
+    "pref": "奈良",
+    "map_url": null,
+    "youtube": "https://m.youtube.com/channel/UCGdU2oYdDcWXPbAbpJMVTQQ/live",
+    "lat": 34.69249612062154,
+    "lon": 135.7857818787537,
+    "categories": [],
+    "embed": false
+  },
+  {
+    "name": "やまと郡山城ホール 駐車場",
+    "city": "奈良市",
+    "pref": "奈良",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=1fmvTCMMs8M",
+    "lat": 34.652842227066415,
+    "lon": 135.78283654708306,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "郡山城情報館 駐車場",
+    "city": "奈良市",
+    "pref": "奈良",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=Aylxwo5HegM",
+    "lat": 34.6513020018406,
+    "lon": 135.7782387141004,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "なら歴史芸術文化村からの眺め",
+    "city": "大和郡山市",
+    "pref": "奈良",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=wklSALw9aOM",
+    "lat": 34.58919692515816,
+    "lon": 135.84669278467018,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "談山神社",
+    "city": "天理市",
+    "pref": "奈良",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=zppA64fWxfE",
+    "lat": 34.46598024772914,
+    "lon": 135.86151918697152,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "金剛山 山頂広場",
+    "city": "五條市",
+    "pref": "奈良",
+    "map_url": "https://www.cametan.com/map/290.html",
+    "youtube": "https://www.youtube.com/channel/UCgZl3r4RcelbiD7unKMZnWw/live",
+    "lat": 34.42074267172882,
+    "lon": 135.6708336425745,
+    "categories": [],
+    "embed": true
+  },
+  {
+    "name": "金剛山 登山口",
+    "city": "五條市",
+    "pref": "奈良",
+    "map_url": null,
+    "youtube": "https://www.youtube.com/watch?v=Ky6i2oJGpGI",
+    "lat": 34.418741229646706,
+    "lon": 135.65088012983657,
+    "categories": [],
+    "embed": false
+  }
+]

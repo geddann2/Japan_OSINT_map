@@ -63,7 +63,7 @@
     "lat": null,
     "lon": null,
     "categories": [],
-    "embed": null
+    "embed": false
   },
   {
     "name": "大分空港",

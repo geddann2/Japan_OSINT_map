@@ -2,8 +2,10 @@ from flask import Flask, render_template
 from dotenv import load_dotenv
 from api.aircraft import get_aircraft, save_route, get_route
 from api.earthquake import get_earthquake
-from api.ship import get_ship, init_ship
+from api.ship import get_ship, init_ship, save_route as ship_save_route, get_route as ship_get_route
 from api.camera import get_camera, set_embed, report_embed_ng
+
+# 追加するルート
 
 
 import logging
@@ -38,6 +40,14 @@ def earthquake():
 @app.route("/api/ship")
 def ship():
     return get_ship()
+
+@app.route("/api/ship/route", methods=["GET"])
+def ship_route_get():
+    return ship_get_route()
+
+@app.route("/api/ship/route", methods=["POST"])
+def ship_route_post():
+    return ship_save_route()
 
 @app.route("/api/camera")
 def camera():

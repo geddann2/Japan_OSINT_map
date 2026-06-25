@@ -92,8 +92,8 @@
 
 <script>
 function updateChips() {
-  const aircraftCount = Object.keys(aircraftMarkers).length;
-  const shipCount = Object.keys(shipMarkers).length;
+  const aircraftCount = typeof aircraftMarkers !== "undefined" ? Object.keys(aircraftMarkers).length : 0;
+  const shipCount = typeof shipMarkers !== "undefined" ? Object.keys(shipMarkers).length : 0;
   document.getElementById("chip-aircraft").textContent = aircraftCount + " 航空機";
   document.getElementById("chip-ship").textContent = shipCount + " 船舶";
 }

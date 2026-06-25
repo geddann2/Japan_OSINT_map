@@ -5,20 +5,19 @@ var map = L.map('map', {
     maxBoundsViscosity: 1.0
 }).setView([36, 138], 5);
 
-//L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-//    attribution: '&copy; Esri'
-//}).addTo(map);
-
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     opacity: 0.9,
 }).addTo(map);
 
 // レイヤー表示切替（共通）
 let layerVisible = { aircraft: true, earthquake: true, ship: true, camera: true };
+
 function toggleLayer(type) {
     layerVisible[type] = !layerVisible[type];
-//飛行機情報
+
+    // 飛行機情報
     if (type === "aircraft") {
+        if (typeof aircraftMarkers === "undefined") return;
         for (let icao in aircraftMarkers) {
             if (layerVisible.aircraft) {
                 aircraftMarkers[icao].addTo(map);
@@ -27,8 +26,10 @@ function toggleLayer(type) {
             }
         }
     }
-//地震情報
+
+    // 地震情報
     if (type === "earthquake") {
+        if (typeof earthquakeMarkers === "undefined") return;
         earthquakeMarkers.forEach(m => {
             if (!m) return;
             if (layerVisible.earthquake) {
@@ -39,8 +40,9 @@ function toggleLayer(type) {
         });
     }
 
-//船舶情報
+    // 船舶情報
     if (type === "ship") {
+        if (typeof shipMarkers === "undefined") return;
         for (let mmsi in shipMarkers) {
             if (layerVisible.ship) {
                 shipMarkers[mmsi].addTo(map);
@@ -50,7 +52,9 @@ function toggleLayer(type) {
         }
     }
 
+    // カメラ情報
     if (type === "camera") {
+        if (typeof cameraMarkers === "undefined") return;
         for (let key in cameraMarkers) {
             if (layerVisible.camera) {
                 cameraMarkers[key].addTo(map);
@@ -61,5 +65,5 @@ function toggleLayer(type) {
     }
 
     const btn = document.getElementById(`btn-${type}`);
-    if (btn) btn.style.opacity = layerVisible[type] ? "1" : "0.4";
+    if (btn) btn.classList.toggle("active", layerVisible[type]);
 }

@@ -19,12 +19,45 @@ function toEmbedUrl(url) {
     return null;
 }
 
+// setEmbed: returnを追加（前回修正済みの確認）
 function setEmbed(youtubeUrl, embedVal) {
-    fetch('/api/camera/embed', {
+    return fetch('/api/camera/embed', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ youtube: youtubeUrl, embed: embedVal })
     }).catch(e => console.warn("embed update error:", e));
+}
+
+// reportEmbedNg: embed_ngエンドポイントに加えてsetEmbedも呼ぶ
+function reportEmbedNg(youtubeUrl) {
+    fetch('/api/camera/embed_ng', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ youtube: youtubeUrl })
+    }).catch(e => console.warn("embed_ng report error:", e));
+
+    // embedフィールドもfalseに更新 ← 追加
+    setEmbed(youtubeUrl, false).then(() => updateCamera());
+}
+
+// onEmbedOk: ボタンnullチェック追加 + updateCamera
+function onEmbedOk(youtubeUrl) {
+    setEmbed(youtubeUrl, true).then(() => updateCamera());
+    const okBtn = document.getElementById("embed-ok-btn");
+    const ngBtn = document.getElementById("embed-ng-btn");
+    if (okBtn) okBtn.style.cssText = `padding:3px 10px;font-size:11px;border-radius:4px;border:1px solid #4ade80;background:#4ade8022;color:#4ade80;cursor:pointer;`;
+    if (ngBtn) ngBtn.style.cssText = `padding:3px 10px;font-size:11px;border-radius:4px;border:1px solid rgba(255,255,255,0.1);background:transparent;color:rgba(148,163,184,0.5);cursor:pointer;`;
+}
+
+// onEmbedNg: ボタンnullチェック追加 + updateCamera
+function onEmbedNg(youtubeUrl) {
+    setEmbed(youtubeUrl, false).then(() => updateCamera());
+    const okBtn = document.getElementById("embed-ok-btn");
+    const ngBtn = document.getElementById("embed-ng-btn");
+    if (ngBtn) ngBtn.style.cssText = `padding:3px 10px;font-size:11px;border-radius:4px;border:1px solid #f87171;background:#f8717122;color:#f87171;cursor:pointer;`;
+    if (okBtn) okBtn.style.cssText = `padding:3px 10px;font-size:11px;border-radius:4px;border:1px solid rgba(255,255,255,0.1);background:transparent;color:rgba(148,163,184,0.5);cursor:pointer;`;
+    const body = document.getElementById("camera-popup-body");
+    if (body) body.innerHTML = makeFallbackHtml(youtubeUrl);
 }
 
 function reportEmbedNg(youtubeUrl) {
